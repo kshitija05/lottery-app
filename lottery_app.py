@@ -17,7 +17,7 @@ def combinations(n, k):
 st.title("Lottery Probability Calculator")
 
 # Load the CSV file
-file_path = "D:\OneDrive\Desktop\ProjectsKshitija\cb\649.csv"
+file_path = "649.csv"
 lottery_canada = pd.read_csv(file_path)
 
 def extract_numbers(row):
